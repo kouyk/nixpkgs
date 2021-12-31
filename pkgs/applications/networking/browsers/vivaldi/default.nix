@@ -44,12 +44,13 @@ in stdenv.mkDerivation rec {
   libPath = lib.makeLibraryPath buildInputs
     + lib.optionalString (stdenv.is64bit)
       (":" + lib.makeSearchPathOutput "lib" "lib64" buildInputs)
-    + ":$out/opt/${vivaldiName}/lib";
+    + ":$out/opt/${vivaldiName}/lib"
+    + ":$out/opt/${vivaldiName}";
 
   buildPhase = ''
     runHook preBuild
     echo "Patching Vivaldi binaries"
-    for f in chrome_crashpad_handler vivaldi-bin vivaldi-sandbox ; do
+    for f in chrome_crashpad_handler vivaldi-bin vivaldi-sandbox libvulkan.so.1 ; do
       patchelf \
         --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" \
         --set-rpath "${libPath}" \
