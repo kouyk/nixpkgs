@@ -1,0 +1,104 @@
+{
+  "164": {
+    "url": "https://plugins.jetbrains.com/files/164/208284/IdeaVim-1.11.1.zip",
+    "hash": "sha256-XxO3WUKYjxb0F/BT2i76P8bEPFL9reURNefzgIJ4yC0=",
+    "name": "ideavim",
+    "version": 208284
+  },
+  "631": {
+    "url": "https://plugins.jetbrains.com/files/631/238496/python-223.6646.99.zip",
+    "hash": "sha256-jH02FbHiqp0RaF8UVwU2cfQCr8reMDVYYlPwasMPI0o=",
+    "name": "python",
+    "version": 238496
+  },
+  "4230": {
+    "url": "https://plugins.jetbrains.com/files/4230/92719/BashSupport-1.8.0.202.zip",
+    "hash": "sha256-c6MOV9RmDPZcg+2reacK3O2BQuMnqxYjvLh5leQ7lkI=",
+    "name": "bashsupport",
+    "version": 92719
+  },
+  "6954": {
+    "url": "https://plugins.jetbrains.com/files/6954/230624/kotlin-plugin-222-1.7.20-release-201-IJ4167.29.zip",
+    "hash": "sha256-tbZtHo7S/+gLPcRXeqOMCGyFTfhiZNa0C/pCA7SCuhc=",
+    "name": "kotlin",
+    "version": 230624
+  },
+  "6981": {
+    "url": "https://plugins.jetbrains.com/files/6981/239163/ini-223.6646.115.zip",
+    "hash": "sha256-sJ1Lf+f/nV23KMewllKqP1xZ6SBmk+DQ/UvN1ZosMcQ=",
+    "name": "ini",
+    "version": 239163
+  },
+  "7322": {
+    "url": "https://plugins.jetbrains.com/files/7322/238523/python-ce-223.6646.99.zip",
+    "hash": "sha256-zlvfDk1kt/QKKjZk8bDOqpjUtRnWf/w4lhVMhdCU9eQ=",
+    "name": "python-community-edition",
+    "version": 238523
+  },
+  "7495": {
+    "url": "https://plugins.jetbrains.com/files/7495/192188/ignore-4.4.2.zip",
+    "hash": "sha256-jGMElsJPKEkCfwiyQnYULp9OVICTAloim8GWZ1ekXZY=",
+    "name": "-ignore",
+    "version": 192188
+  },
+  "8182": {
+    "url": "https://plugins.jetbrains.com/files/8182/236203/intellij-rust-0.4.180.4932-223.zip",
+    "hash": "sha256-GZhTvSsPWUphS1o7ZhC/6yskpJDT7w5kgZpWGlROrIs=",
+    "name": "rust",
+    "version": 236203
+  },
+  "8182-beta": {
+    "url": "https://plugins.jetbrains.com/files/8182/239257/intellij-rust-0.4.181.4946-222-beta.zip",
+    "hash": "sha256-s6OslEWmON0+k+qU/NQXPpDSwGOLPtTcYOBbpX2subs=",
+    "name": "rust-beta",
+    "version": 239257
+  },
+  "8554": {
+    "url": "https://plugins.jetbrains.com/files/8554/239179/featuresTrainer-223.6646.115.zip",
+    "hash": "sha256-SiOCiSK1sF5+xYiLAnT2b+H94MCTaToHO43CQZMW5qQ=",
+    "name": "ide-features-trainer",
+    "version": 239179
+  },
+  "8607": {
+    "url": "https://plugins.jetbrains.com/files/8607/235206/NixIDEA-0.4.0.6.zip",
+    "hash": "sha256-DZVCygkVVS2r0ZJXqLyuAUOZSs90OLla/DEOpn8xRRw=",
+    "name": "nixidea",
+    "version": 235206
+  },
+  "9568": {
+    "url": "https://plugins.jetbrains.com/files/9568/238518/go-plugin-223.6646.99.zip",
+    "hash": "sha256-bHQSUM6ZIr2PFRDpnKbtfFmMbH8heKB9YDIwSxs+GXo=",
+    "name": "go",
+    "version": 238518
+  },
+  "10037": {
+    "url": "https://plugins.jetbrains.com/files/10037/199466/CSV-2.19.0.zip",
+    "hash": "sha256-b9N1Yu0LMC69Wk/QHeMtOS1cBkUDcmDKeQzOl+fA/kU=",
+    "name": "csv",
+    "version": 199466
+  },
+  "12559": {
+    "url": "https://plugins.jetbrains.com/files/12559/237465/keymap-eclipse-223.6646.21.zip",
+    "hash": "sha256-AbSPExgUWYrmvRLK/zHnrQsWVM56d2ss/KcxvxKuv/I=",
+    "name": "eclipse-keymap",
+    "version": 237465
+  },
+  "13017": {
+    "url": "https://plugins.jetbrains.com/files/13017/238634/keymap-visualStudio-223.6646.113.zip",
+    "hash": "sha256-wH38vZH8xIl3Muk4nQnNUrCMZfiq+2uaEAlSwUwa6l0=",
+    "name": "visual-studio-keymap",
+    "version": 238634
+  },
+  "14059": {
+    "url": "https://plugins.jetbrains.com/files/14059/82616/darcula-pitch-black.jar",
+    "hash": "sha256-eXInfAqY3yEZRXCAuv3KGldM1pNKEioNwPB0rIGgJFw=",
+    "name": "darcula-pitch-black",
+    "version": 82616
+  },
+  "18444": {
+    "url": "https://plugins.jetbrains.com/files/18444/165585/NetBeans6.5Keymap.zip",
+    "hash": "sha256-KrzZTKZMQqoEMw+vDUv2jjs0EX0leaPBkU8H/ecq/oI=",
+    "name": "netbeans-6-5-keymap",
+    "version": 165585
+  }
+}

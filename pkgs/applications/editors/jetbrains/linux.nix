@@ -3,7 +3,17 @@
 , vmopts ? null
 }:
 
-{ pname, product, productShort ? product, version, src, wmClass, jdk, meta, extraLdPath ? [], extraWrapperArgs ? [] }@args:
+{ pname
+, product
+, productShort ? product
+, version
+, src
+, wmClass
+, jdk
+, meta
+, extraLdPath ? []
+, extraWrapperArgs ? []
+}@args:
 
 with lib;
 
@@ -34,28 +44,30 @@ with stdenv; lib.makeOverridable mkDerivation (rec {
   nativeBuildInputs = [ makeWrapper patchelf unzip ];
 
   postPatch = ''
-      get_file_size() {
-        local fname="$1"
-        echo $(ls -l $fname | cut -d ' ' -f5)
-      }
+    get_file_size() {
+      local fname="$1"
+      echo $(ls -l $fname | cut -d ' ' -f5)
+    }
 
-      munge_size_hack() {
-        local fname="$1"
-        local size="$2"
-        strip $fname
-        truncate --size=$size $fname
-      }
+    munge_size_hack() {
+      local fname="$1"
+      local size="$2"
+      strip $fname
+      truncate --size=$size $fname
+    }
 
-      interpreter=$(echo ${stdenv.cc.libc}/lib/ld-linux*.so.2)
-      if [[ "${stdenv.hostPlatform.system}" == "x86_64-linux" && -e bin/fsnotifier64 ]]; then
-        target_size=$(get_file_size bin/fsnotifier64)
-        patchelf --set-interpreter "$interpreter" bin/fsnotifier64
-        munge_size_hack bin/fsnotifier64 $target_size
-      else
-        target_size=$(get_file_size bin/fsnotifier)
-        patchelf --set-interpreter "$interpreter" bin/fsnotifier
-        munge_size_hack bin/fsnotifier $target_size
-      fi
+    interpreter=$(echo ${stdenv.cc.libc}/lib/ld-linux*.so.2)
+    if [[ "${stdenv.hostPlatform.system}" == "x86_64-linux" && -e bin/fsnotifier64 ]]; then
+      target_size=$(get_file_size bin/fsnotifier64)
+      patchelf --set-interpreter "$interpreter" bin/fsnotifier64
+      munge_size_hack bin/fsnotifier64 $target_size
+    else
+      target_size=$(get_file_size bin/fsnotifier)
+      patchelf --set-interpreter "$interpreter" bin/fsnotifier
+      munge_size_hack bin/fsnotifier $target_size
+    fi
+
+    rm -rf jbr
   '';
 
   installPhase = ''
