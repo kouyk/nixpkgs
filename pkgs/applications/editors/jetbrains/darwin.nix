@@ -10,6 +10,7 @@
 , productShort ? product
 , src
 , version
+, plugins ? []
 , ...
 }:
 
@@ -17,7 +18,7 @@ let
   loname = lib.toLower productShort;
 in
   stdenvNoCC.mkDerivation {
-    inherit pname meta src version;
+    inherit pname meta src version plugins;
     desktopName = product;
     installPhase = ''
       runHook preInstall
@@ -29,6 +30,11 @@ in
       open -na '$APP_DIR' --args "\$@"
       EOF
       chmod +x "$out/bin/${loname}"
+      IFS=' ' read -ra pluginArray <<< "$plugins"
+      for plugin in "''${pluginArray[@]}"
+      do
+          ln -s "$plugin" -t $out/$pname/plugins/
+      done
       runHook postInstall
     '';
     nativeBuildInputs = [ undmg ];
