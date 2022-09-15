@@ -208,7 +208,7 @@ let
           providing you almost everything you need for your comfortable
           and productive development!
         '';
-        maintainers = with maintainers; [ ];
+        maintainers = with maintainers; [ genericnerdyusername ];
       };
     }).overrideAttrs (finalAttrs: previousAttrs: optionalAttrs cythonSpeedup {
       buildInputs = with python3.pkgs; [ python3 setuptools ];
