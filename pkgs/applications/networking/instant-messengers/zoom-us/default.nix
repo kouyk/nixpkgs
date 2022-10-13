@@ -167,11 +167,14 @@ stdenv.mkDerivation rec {
     # everybody runs Zoom only after cd to Zoom package directory? Anyway, :facepalm:
     # Clear Qt paths to prevent tripping over "foreign" Qt resources.
     # Clear Qt screen scaling settings to prevent over-scaling.
+    # Zoom still has several bugs when running on wayland, appearing glitchy and the share bar being
+    # stuck at a strange position, it is better to use x11 or xwayland until this is fixed upstream.
     makeWrapper $out/opt/zoom/ZoomLauncher $out/bin/zoom \
       --chdir "$out/opt/zoom" \
       --unset QML2_IMPORT_PATH \
       --unset QT_PLUGIN_PATH \
       --unset QT_SCREEN_SCALE_FACTORS \
+      --set QT_QPA_PLATFORM xcb \
       --prefix PATH : ${lib.makeBinPath [ coreutils glib.dev pciutils procps util-linux ]} \
       --prefix LD_LIBRARY_PATH ":" ${libs}
 
