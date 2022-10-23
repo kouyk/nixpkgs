@@ -95,6 +95,12 @@
     "name": "darcula-pitch-black",
     "version": 82616
   },
+  "17718": {
+    "url": "https://plugins.jetbrains.com/files/17718/241197/github-copilot-intellij-1.1.34.2009.zip",
+    "hash": "sha256-moyorDuQ2gMpaz6yzRSccDkYp3wqVsU8cFsN5CY5otE=",
+    "name": "github-copilot",
+    "version": 241197
+  },
   "18444": {
     "url": "https://plugins.jetbrains.com/files/18444/165585/NetBeans6.5Keymap.zip",
     "hash": "sha256-KrzZTKZMQqoEMw+vDUv2jjs0EX0leaPBkU8H/ecq/oI=",
