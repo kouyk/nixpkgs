@@ -13,6 +13,7 @@
 , meta
 , extraLdPath ? []
 , extraWrapperArgs ? []
+, plugins ? []
 }@args:
 
 with lib;
@@ -25,7 +26,7 @@ let loName = toLower productShort;
 in
 
 with stdenv; lib.makeOverridable mkDerivation (rec {
-  inherit pname version src;
+  inherit pname version src plugins;
   meta = args.meta // { mainProgram = pname; };
 
   desktopItem = makeDesktopItem {
