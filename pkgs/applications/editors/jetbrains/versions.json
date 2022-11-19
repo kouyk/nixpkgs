@@ -21,38 +21,38 @@
     "gateway": {
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.tar.gz",
-      "version": "2022.3 EAP",
-      "sha256": "4868baed9350065c1db760f07a09badd1473132af640cc19330e20c8a0940d7d",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-223.6646.21.tar.gz",
+      "version": "2022.3 Beta",
+      "sha256": "d2c3a0e2d521ce5ac542b86cc9bf1e35c484708ca15f546df59bd42c64290eb7",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-223.7571.4.tar.gz",
       "version-major-minor": "2022.3",
-      "build_number": "223.6646.21"
+      "build_number": "223.7571.4"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.tar.gz",
-      "version": "2022.2.4",
-      "sha256": "e39aaae39e6021e87cece7622c51860d23e2a5b5ac2683fb67d369ec7d609084",
-      "url": "https://download.jetbrains.com/go/goland-2022.2.4.tar.gz",
+      "version": "2022.2.5",
+      "sha256": "164d4a1122cf15db263616538df5d24a33314fe82a99d9925fd3cbb2997a7987",
+      "url": "https://download.jetbrains.com/go/goland-2022.2.5.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.24"
+      "build_number": "222.4459.23"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "4ba5faafad48d58db5099fae080ae2238086d3d9803080082de8efe35d8bf4ed",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2022.2.3.tar.gz",
+      "version": "2022.2.4",
+      "sha256": "a1885c67f26a83e179275f52ce34e8e2e3f57dbb8bfeadfe4048673e6bf71da1",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2022.2.4.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}-no-jbr.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "7454d7e0b8f4e3d8d805dde645d28b842101bd77aea8b29125880c592e6b8c85",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2022.2.3-no-jbr.tar.gz",
+      "version": "2022.2.4",
+      "sha256": "01aeea943e577afc79eb4c73dec0d4df0d0ea7b4bae115e92e3a6fa7831a10d8",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2022.2.4-no-jbr.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
@@ -75,38 +75,38 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "cb03d44599a03419c0c63fc917846fca28c9ea664ed2b2a1c36240dcffb2a387",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.3.tar.gz",
+      "version": "2022.2.4",
+      "sha256": "5f10f855a562877f76d3470c123323e2ff40ecbef65aae14730b6cf25c2d9216",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.4.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.23"
+      "build_number": "222.4459.20"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "c73750a2e27ed2410741a739071a920cca9844608a81f07735ed2e35a024cca1",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.3.tar.gz",
+      "version": "2022.2.4",
+      "sha256": "cd6253f558ef0b2f3890713401cfe11eadb717c14373dfbb520bedce621e728b",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.4.tar.gz",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.23"
+      "build_number": "222.4459.20"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "2fdff8616fd1574a0ef7baaed855aa39a1254ea164b74d1b4dda11241e58ab2d",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2022.2.3.tar.gz",
+      "version": "2022.2.4",
+      "sha256": "bb0997287d646189e850e2d96f7775a92cec04c38c756167bafe96a2be63fa78",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2022.2.4.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "222.4167.23"
+      "build_number": "222.4459.9"
     },
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "a8c3412db30ab7bd8b8601b0a50c95dc48a412391f1c33df27c47cf5d2204257",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2022.2.3.tar.gz",
+      "version": "2022.2.4",
+      "sha256": "f1065e3e098f907d9eae63eec7b55e24c84b5f3e03499a842ebc7a40768af806",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2022.2.4.tar.gz",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -140,38 +140,38 @@
     "gateway": {
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}.dmg",
-      "version": "2022.3 EAP",
-      "sha256": "2db71a052501db41d5cfe142f1a6e3178fe02830f0da127d00fbf93a4629c61b",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-223.6646.21.dmg",
+      "version": "2022.3 Beta",
+      "sha256": "5fcbcf10f15b3653113d77cfd3a6d83e8054dca942797603e75bcade2bef3216",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-223.7571.4.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "223.6646.21"
+      "build_number": "223.7571.4"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.dmg",
-      "version": "2022.2.4",
-      "sha256": "456957075636f7f9ccffbd8d3bd37d2218547289a2cbce043bb9e32c436654f6",
-      "url": "https://download.jetbrains.com/go/goland-2022.2.4.dmg",
+      "version": "2022.2.5",
+      "sha256": "fdefbca9fdeb3544de6b473ee14118ccdd932274c554a8f9951f29688391c081",
+      "url": "https://download.jetbrains.com/go/goland-2022.2.5.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.24"
+      "build_number": "222.4459.23"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "6ec3721d9961918a14630eaf068765eeba97e71baecd95ec67510dc25c8bd1b1",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2022.2.3.dmg",
+      "version": "2022.2.4",
+      "sha256": "aa36de909f4d9838a909c73d0f22c53a21b31d7acef2f295b735237c763d7388",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2022.2.4.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "df780c841398532e090adc2c6af35a7fbcdd29fddb37e5a68f33d61a9032d5a3",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2022.2.3.dmg",
+      "version": "2022.2.4",
+      "sha256": "350661a978a3f3ac730e160df52a4324c00a03fdbd03706b69a19bc7683ac774",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2022.2.4.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
@@ -194,38 +194,38 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "01eec651f6e8d92e1bfe5688aeb179ad5eb92e77ef77d102793d4848f8efc0d4",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.3.dmg",
+      "version": "2022.2.4",
+      "sha256": "3cc3f4fedb9a6cb515e12fb357122030bf17bc98b36f29ceb7cd8fdb243da1e4",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.4.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.23"
+      "build_number": "222.4459.20"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "920326a35589fee80e70b84d23184daf1d3efc8ecf4ec8c273c2bf2ec764a5b7",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.3.dmg",
+      "version": "2022.2.4",
+      "sha256": "92f0d58caed295aa87d31d6f724d5cc82b9524ecbe6f1015e6e2ef31de0a28b5",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.4.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.23"
+      "build_number": "222.4459.20"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "aa02c2c621d356486a0b698a45d773f5830ff4ef431940059f82e8d3c17a2335",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2022.2.3.dmg",
+      "version": "2022.2.4",
+      "sha256": "147b10fdcfc72f079c54089e07d3850f4b8e5fc25b9e7a67ee167fded89e2149",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2022.2.4.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4167.23"
+      "build_number": "222.4459.9"
     },
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "a04700159fcf3bfed74d196edc4c1150e5906dc4730d06ffd017b6bbb9bc853b",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2022.2.3.dmg",
+      "version": "2022.2.4",
+      "sha256": "a50e5b035838d4f3405768b308747c85b638984782ac60ecd81e4a48c1e49d27",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2022.2.4.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
@@ -259,38 +259,38 @@
     "gateway": {
       "update-channel": "Gateway EAP",
       "url-template": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-{version}-aarch64.dmg",
-      "version": "2022.3 EAP",
-      "sha256": "513d3a271c5ff20fdc5c22f6e28eb21cfbb283d01ade2d11f33bb7eb79317410",
-      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-223.6646.21-aarch64.dmg",
+      "version": "2022.3 Beta",
+      "sha256": "902798dcc89bf15e275975845b2e6ac56e863ddf2c6ff0e768497274e1a19631",
+      "url": "https://download.jetbrains.com/idea/gateway/JetBrainsGateway-223.7571.4-aarch64.dmg",
       "version-major-minor": "2022.3",
-      "build_number": "223.6646.21"
+      "build_number": "223.7571.4"
     },
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}-aarch64.dmg",
-      "version": "2022.2.4",
-      "sha256": "f1b1bb4f28a09b23a185fc2437792a3125b2c8856fa533c9bcb09b7eef16fe09",
-      "url": "https://download.jetbrains.com/go/goland-2022.2.4-aarch64.dmg",
+      "version": "2022.2.5",
+      "sha256": "1958fa7848ada9e7c052b5e18fe25883931c14f36323f4df96be1cb6f0fd7866",
+      "url": "https://download.jetbrains.com/go/goland-2022.2.5-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.24"
+      "build_number": "222.4459.23"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIC-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "333c70caf452034ae332cdded4d24a71592049b4045725eb57826a0b997d1c7a",
-      "url": "https://download.jetbrains.com/idea/ideaIC-2022.2.3-aarch64.dmg",
+      "version": "2022.2.4",
+      "sha256": "855ac4cfcf9349a42ec44341345a44061dd125ae746cc6768f115e4e6aefa683",
+      "url": "https://download.jetbrains.com/idea/ideaIC-2022.2.4-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
       "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "9e5c32fffd17d651d8d875c2588a067902a9ebb9bf815d06aabfd75b9f4ee3cd",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2022.2.3-aarch64.dmg",
+      "version": "2022.2.4",
+      "sha256": "50edd3d345ea005624263328432604ea67eb6e330b3d63d59fa3e0e8e6fb42aa",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2022.2.4-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "mps": {
       "update-channel": "MPS RELEASE",
@@ -313,38 +313,38 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "6b87c85f6b5b3262904b34d0bbb6775d2654610685a8bca9977b147644b113ea",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.3-aarch64.dmg",
+      "version": "2022.2.4",
+      "sha256": "3ecad9f9179037ea5b7c0992321765b12c6f9f70264426f17068e62822895402",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.4-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.23"
+      "build_number": "222.4459.20"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "59d9553ab01de9460984f082c12fb0586aeb84eb00a4501bab358e516f1f6847",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.3-aarch64.dmg",
+      "version": "2022.2.4",
+      "sha256": "34967ce10f511ab37e1015e0f88f225bf6c2b513c8bea1310bb791030df02110",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.4-aarch64.dmg",
       "version-major-minor": "2022.2",
-      "build_number": "222.4345.23"
+      "build_number": "222.4459.20"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
       "url-template": "https://download.jetbrains.com/rider/JetBrains.Rider-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "5dd892ed16dd1bc819a97ffb62cdfbb3b60c6019581ba18358afc5c0a39585f5",
-      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2022.2.3-aarch64.dmg",
+      "version": "2022.2.4",
+      "sha256": "815e1b77c1280ab21a1a461e81867aa18e0202c13be524d01cf61aa972218c43",
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2022.2.4-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4167.23"
+      "build_number": "222.4459.9"
     },
     "ruby-mine": {
       "update-channel": "RubyMine RELEASE",
       "url-template": "https://download.jetbrains.com/ruby/RubyMine-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "cd7a967c2745aca566569a320eb276773638d05fcd25839db18a098803d2c5f4",
-      "url": "https://download.jetbrains.com/ruby/RubyMine-2022.2.3-aarch64.dmg",
+      "version": "2022.2.4",
+      "sha256": "6eaec1574cf27f8416e7c7a8b1dd9f1e5e5486309dbd9aba065860af60f88e88",
+      "url": "https://download.jetbrains.com/ruby/RubyMine-2022.2.4-aarch64.dmg",
       "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "build_number": "222.4459.24"
     },
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
