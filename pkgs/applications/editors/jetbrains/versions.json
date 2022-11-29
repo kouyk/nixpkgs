@@ -111,11 +111,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "1d7d464bbcb83d5af48359aeda6aa7d165038bfaa1f26fef1019761eb278fa22",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2022.2.3.tar.gz",
-      "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "version": "2022.3",
+      "sha256": "a70a2074f838c4a5f50b99d8797376bf3f57cdb40e9c728246555f9b4ac5d35b",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2022.3.tar.gz",
+      "version-major-minor": "2022.3",
+      "build_number": "223.7571.168"
     }
   },
   "x86_64-darwin": {
@@ -230,11 +230,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "e6532a9a840c3508cdf26511200fbba34ec9a275154d717538019f72ebc5fc51",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2022.2.3.dmg",
-      "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "version": "2022.3",
+      "sha256": "fa0c8dc172930c76c9d329253cc3debae1ba53fb55f6b568c03c21d2ba6ee949",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2022.3.dmg",
+      "version-major-minor": "2022.3",
+      "build_number": "223.7571.168"
     }
   },
   "aarch64-darwin": {
@@ -349,11 +349,11 @@
     "webstorm": {
       "update-channel": "WebStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webstorm/WebStorm-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "7ffd746e5e33f2d69f7b8c39920f67de149f183a0d372d20f3f6bc4febf2e355",
-      "url": "https://download.jetbrains.com/webstorm/WebStorm-2022.2.3-aarch64.dmg",
-      "version-major-minor": "2022.1",
-      "build_number": "222.4345.14"
+      "version": "2022.3",
+      "sha256": "3042abfd3ce1f33abd9f25cd01a43726e7567df11067a2056cb7124226bcdcc0",
+      "url": "https://download.jetbrains.com/webstorm/WebStorm-2022.3-aarch64.dmg",
+      "version-major-minor": "2022.3",
+      "build_number": "223.7571.168"
     }
   }
 }
