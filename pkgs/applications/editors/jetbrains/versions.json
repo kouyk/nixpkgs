@@ -27,10 +27,10 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.tar.gz",
-      "version": "2022.2.5",
-      "sha256": "164d4a1122cf15db263616538df5d24a33314fe82a99d9925fd3cbb2997a7987",
-      "url": "https://download.jetbrains.com/go/goland-2022.2.5.tar.gz",
-      "build_number": "222.4459.23"
+      "version": "2022.3",
+      "sha256": "4bda4567e199704d8fa65f1a4544404ac53bcd74ea189d8a0dddc5674c85d93a",
+      "url": "https://download.jetbrains.com/go/goland-2022.3.tar.gz",
+      "build_number": "223.7571.176"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -133,10 +133,10 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}.dmg",
-      "version": "2022.2.5",
-      "sha256": "fdefbca9fdeb3544de6b473ee14118ccdd932274c554a8f9951f29688391c081",
-      "url": "https://download.jetbrains.com/go/goland-2022.2.5.dmg",
-      "build_number": "222.4459.23"
+      "version": "2022.3",
+      "sha256": "c83a78c005b19dcc3afd3688423036cf96283611cddb98b81c2f68203c9801a6",
+      "url": "https://download.jetbrains.com/go/goland-2022.3.dmg",
+      "build_number": "223.7571.176"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
@@ -239,10 +239,10 @@
     "goland": {
       "update-channel": "GoLand RELEASE",
       "url-template": "https://download.jetbrains.com/go/goland-{version}-aarch64.dmg",
-      "version": "2022.2.5",
-      "sha256": "1958fa7848ada9e7c052b5e18fe25883931c14f36323f4df96be1cb6f0fd7866",
-      "url": "https://download.jetbrains.com/go/goland-2022.2.5-aarch64.dmg",
-      "build_number": "222.4459.23"
+      "version": "2022.3",
+      "sha256": "31a19782adb468c192ef94c05ed4af4136ede4897c00cd58479381983cf7d871",
+      "url": "https://download.jetbrains.com/go/goland-2022.3-aarch64.dmg",
+      "build_number": "223.7571.176"
     },
     "idea-community": {
       "update-channel": "IntelliJ IDEA RELEASE",
