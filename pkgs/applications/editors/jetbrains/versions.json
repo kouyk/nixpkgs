@@ -59,10 +59,10 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.tar.gz",
-      "version": "2022.2.3",
-      "sha256": "2376cd043bb941524df62db40f9125b1c693be11df80a41fd5b3dd9dcd3446e9",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.3.tar.gz",
-      "build_number": "222.4345.15"
+      "version": "2022.2.4",
+      "sha256": "62a8e684c84a970cf87ad64f991f2be67754639e293b406cc3da25592d3a483f",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.4.tar.gz",
+      "build_number": "222.4459.28"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
@@ -165,10 +165,10 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.dmg",
-      "version": "2022.2.3",
-      "sha256": "8dbe5cd8e31c7f6bc6795db6946e2430c82f0aa2c13e7805c40733428b02241d",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.3.dmg",
-      "build_number": "222.4345.15"
+      "version": "2022.2.4",
+      "sha256": "c8b5c8e3fc06cecb1216d054d9a64f85d7a2a20ea1acc1c5ed83077fe7127b73",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.4.dmg",
+      "build_number": "222.4459.28"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
@@ -271,10 +271,10 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.dmg",
-      "version": "2022.2.3",
-      "sha256": "0dee8fe654cccdafa73b65da1a2ef844401a9438ecee726fe6f6af1f09d07c38",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.3-aarch64.dmg",
-      "build_number": "222.4345.15"
+      "version": "2022.2.4",
+      "sha256": "48ca7e40f17a7ca0eed33477c095849089dc50cefd27783346b7d954951b115a",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.4-aarch64.dmg",
+      "build_number": "222.4459.28"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
