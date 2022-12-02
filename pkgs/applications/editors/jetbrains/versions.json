@@ -67,18 +67,18 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.tar.gz",
-      "version": "2022.2.4",
-      "sha256": "5f10f855a562877f76d3470c123323e2ff40ecbef65aae14730b6cf25c2d9216",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.4.tar.gz",
-      "build_number": "222.4459.20"
+      "version": "2022.3",
+      "sha256": "2a23e3e6c38dd970545634dd6de79eb7f075df7bd782d3b3c8047d670f1261b7",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2022.3.tar.gz",
+      "build_number": "223.7571.203"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.tar.gz",
-      "version": "2022.2.4",
-      "sha256": "cd6253f558ef0b2f3890713401cfe11eadb717c14373dfbb520bedce621e728b",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.4.tar.gz",
-      "build_number": "222.4459.20"
+      "version": "2022.3",
+      "sha256": "5a12c7c699b7cab2e81bc2f83425c141ef396381100395da94faa064cfd9c5cd",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.3.tar.gz",
+      "build_number": "223.7571.203"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
@@ -173,18 +173,18 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}.dmg",
-      "version": "2022.2.4",
-      "sha256": "3cc3f4fedb9a6cb515e12fb357122030bf17bc98b36f29ceb7cd8fdb243da1e4",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.4.dmg",
-      "build_number": "222.4459.20"
+      "version": "2022.3",
+      "sha256": "929c36e896e3619651d7273cf841e46d01b8d8e3d4c8ca920a4100c7c823da7f",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2022.3.dmg",
+      "build_number": "223.7571.203"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}.dmg",
-      "version": "2022.2.4",
-      "sha256": "92f0d58caed295aa87d31d6f724d5cc82b9524ecbe6f1015e6e2ef31de0a28b5",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.4.dmg",
-      "build_number": "222.4459.20"
+      "version": "2022.3",
+      "sha256": "9395573854b7490e412788cee78c456e844d944e96c9cc87341452f24b974f15",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.3.dmg",
+      "build_number": "223.7571.203"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
@@ -279,18 +279,18 @@
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-community-{version}-aarch64.dmg",
-      "version": "2022.2.4",
-      "sha256": "3ecad9f9179037ea5b7c0992321765b12c6f9f70264426f17068e62822895402",
-      "url": "https://download.jetbrains.com/python/pycharm-community-2022.2.4-aarch64.dmg",
-      "build_number": "222.4459.20"
+      "version": "2022.3",
+      "sha256": "baabbe7fa53b1770647c580aa19dfbba5c22fa85dc2e383b1014d4bd6d151a09",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2022.3-aarch64.dmg",
+      "build_number": "223.7571.203"
     },
     "pycharm-professional": {
       "update-channel": "PyCharm RELEASE",
       "url-template": "https://download.jetbrains.com/python/pycharm-professional-{version}-aarch64.dmg",
-      "version": "2022.2.4",
-      "sha256": "34967ce10f511ab37e1015e0f88f225bf6c2b513c8bea1310bb791030df02110",
-      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.2.4-aarch64.dmg",
-      "build_number": "222.4459.20"
+      "version": "2022.3",
+      "sha256": "1205c745e71b0c06a88fd918a6008690337ea829480dd8fd69134862e1229606",
+      "url": "https://download.jetbrains.com/python/pycharm-professional-2022.3-aarch64.dmg",
+      "build_number": "223.7571.203"
     },
     "rider": {
       "update-channel": "Rider RELEASE",
