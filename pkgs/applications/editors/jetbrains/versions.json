@@ -42,10 +42,10 @@
     },
     "idea-ultimate": {
       "update-channel": "IntelliJ IDEA RELEASE",
-      "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}-no-jbr.tar.gz",
+      "url-template": "https://download.jetbrains.com/idea/ideaIU-{version}.tar.gz",
       "version": "2022.3",
-      "sha256": "7454d7e0b8f4e3d8d805dde645d28b842101bd77aea8b29125880c592e6b8c85",
-      "url": "https://download.jetbrains.com/idea/ideaIU-2022.3-no-jbr.tar.gz",
+      "sha256": "9675c15bea4b3d0e2b00265f1b4c7c775f4187cfda9b894b4109c90ceb8e3061",
+      "url": "https://download.jetbrains.com/idea/ideaIU-2022.3.tar.gz",
       "build_number": "223.7571.182"
     },
     "mps": {
