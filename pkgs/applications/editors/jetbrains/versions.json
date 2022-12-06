@@ -59,10 +59,11 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.tar.gz",
-      "version": "2022.2.4",
-      "sha256": "62a8e684c84a970cf87ad64f991f2be67754639e293b406cc3da25592d3a483f",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.4.tar.gz",
-      "build_number": "222.4459.28"
+      "version": "2022.3",
+      "sha256": "f75f9e839f120aa6f026d2c38a4c511fd2b8e937d071d138d08a3e14518959ae",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.3.tar.gz",
+      "build_number": "223.7571.212",
+      "version-major-minor": "2022.3"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
@@ -165,10 +166,11 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}.dmg",
-      "version": "2022.2.4",
-      "sha256": "c8b5c8e3fc06cecb1216d054d9a64f85d7a2a20ea1acc1c5ed83077fe7127b73",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.4.dmg",
-      "build_number": "222.4459.28"
+      "version": "2022.3",
+      "sha256": "f37697f26f3f85390929422c4a70ac72358f16ef044d9042c48d99357f092629",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.3.dmg",
+      "build_number": "223.7571.212",
+      "version-major-minor": "2022.3"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
@@ -271,10 +273,11 @@
     "phpstorm": {
       "update-channel": "PhpStorm RELEASE",
       "url-template": "https://download.jetbrains.com/webide/PhpStorm-{version}-aarch64.dmg",
-      "version": "2022.2.4",
-      "sha256": "48ca7e40f17a7ca0eed33477c095849089dc50cefd27783346b7d954951b115a",
-      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.2.4-aarch64.dmg",
-      "build_number": "222.4459.28"
+      "version": "2022.3",
+      "sha256": "4c2810b793ef797e8fe6c74b1a9fa88a80d08b67441ac8a66dbd0fc85158c435",
+      "url": "https://download.jetbrains.com/webide/PhpStorm-2022.3-aarch64.dmg",
+      "build_number": "223.7571.212",
+      "version-major-minor": "2022.3"
     },
     "pycharm-community": {
       "update-channel": "PyCharm RELEASE",
