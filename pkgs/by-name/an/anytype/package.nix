@@ -11,13 +11,12 @@ let
   };
   appimageContents = appimageTools.extractType2 { inherit name src; };
 in appimageTools.wrapType2 {
-  inherit name src;
+  inherit pname name src;
 
   extraPkgs = pkgs: (appimageTools.defaultFhsEnvArgs.multiPkgs pkgs)
     ++ [ pkgs.libsecret ];
 
   extraInstallCommands = ''
-    mv $out/bin/${name} $out/bin/${pname}
     source "${makeWrapper}/nix-support/setup-hook"
     wrapProgram $out/bin/${pname} \
       --add-flags "\''${NIXOS_OZONE_WL:+\''${WAYLAND_DISPLAY:+--ozone-platform-hint=auto --enable-features=WaylandWindowDecorations}}"
